@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <title>Cocina dulce y saludable</title>
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="indexPagina">
+  <!-- Zona de header -->
+  <header class="header">
+    
+    <div class="img">
+      <img src="img/logo.png" alt="logo">
+    </div>
+
+    <div class="tituloWeb">
+      <h1>Sofia Cocina</h1>
+    </div>
+
+    <div class="sellos">
+      <img src="img/sellos.png" alt="sellos.png" class="sellos">
+    </div>
+
+    <div class="busqueda">
+      <form action="#" method="post" >
+        <p>Recetas: <input type="search" name="busqueda" placeholder="brownie a base de plantas...">
+          <input type="submit" value="Buscar">
+        </p>
+      </form>
+    </div>
+    
+    <nav class="nav">
+      <div id="menu">
+        <ul class="menuList">
+          <li class="botonIndex"><a link href="index.html">Home</a></li> 
+          <li class="botonRecetario"><a link href="page/Recetario.html">Recetario</a></li>
+          <li class="botonCanal"><a link href="page/Canal.html">Canal</a></li>
+          <li class="botonRedes"><a link href="page/Redes.html">Redes</a></li>
+          <li class="botonContacto"><a link href="page/Contacto.html">Contacto</a></li>
+        </ul>         
+      </div>
+    </nav>
+    <h2 class="paginaActiva">Inicio</h2>
+
+  </header>
+  <!-- Zona de contenido --> 
+  <main class="main">
+
+    <section class="seccionImagen">
+      <div class="slide">
+        <div class="slide-inner">
+          <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+          <div class="slide-item">
+            <img src="./img/slider1.png" alt="slider1">
+          </div>
+          <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+          <div class="slide-item">
+            <img src="./img/slider2.png" alt="slider2">
+          </div>
+          <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+          <div class="slide-item">
+            <img src="./img/slider3.png" alt="slider3">
+          </div>
+          <label for="slide-3" class="slide-control prev control-1">‹</label>
+          <label for="slide-2" class="slide-control next control-1">›</label>
+          <label for="slide-1" class="slide-control prev control-2">‹</label>
+          <label for="slide-3" class="slide-control next control-2">›</label>
+          <label for="slide-2" class="slide-control prev control-3">‹</label>
+          <label for="slide-1" class="slide-control next control-3">›</label>
+          <ol class="slide-indicador">
+            <li>
+              <label for="slide-1" class="slide-circulo">•</label>
+            </li>
+            <li>
+              <label for="slide-2" class="slide-circulo">•</label>
+            </li>
+            <li>
+              <label for="slide-3" class="slide-circulo">•</label>
+            </li>
+          </ol>
+        </div>
+      </div>  
+    </section>
+
+    <section class="seccionNoticias">
+
+      <div class="noticiaA">
+        <h2>Frutas</h2>
+        <p class="textoNoticia">
+          ¿Sabes que tienes que tomar mínimo tres piezas de fruta fresca al día? Así lo recomienda la Asociación 5 al día al igual que la mayoría de expertos en nutrición. Aunque parezcan muchas, si te organizas es fácil incorporarlas a tu dieta diaria. Por ejemplo, empieza con una pieza en el desayuno o con una macedonia casera. A media mañana o a la hora de la merienda, cuando te entre gusa, otra pieza de fruta y después de cenar, otra. Así de fácil es cuidarse.
+        </p>
+      </div>
+
+      <div class="noticiaB">
+        <h2>Hortalizas</h2>
+        <p class="textoNoticia">
+          Hay numerosa evidencia científica que ha demostrado que son beneficiosas para la salud humana, debido a sus propiedades biológicas saludables conocidas, que incluyen la eliminación de radicales libres, la regulación de actividad enzimática y modulación de varias vías de señalización celular.
+        </p>
+      </div>
+
+      <div class="noticiaC">
+        <h2>Verduras</h2>
+        <p class="textoNoticia">
+          Las verduras son las hortalizas que tienen el verde como color principal, de ahí su nombre, pero eso no siempre es así, ya que la zanahoria, por ejemplo, es una verdura de color naranja. Sean como sean, las verduras están llenas de vitaminas, una de las principales fuentes de salud para el organismo, antioxidantes, minerales, agua y fibra, por eso es tan importante y beneficioso que los niños consuman verduras en su dieta diaria.
+        </p>
+      </div>
+
+    </section>
+
+    <aside class="aside">
+      <div class="banner1">
+        <a href="https://www.pfalimentos.cl/mister-veggie/" target="_blank"><img  src="img/banner1.png" alt="misterVeggieLogo"></a>
+      </div>
+      <div class="banner2">
+        <a href="https://tienda.notco.com/" target="_blank"><img  src="img/banner2.png" alt="notCoLogo"></a>
+      </div>
+      <div  class="banner3">
+        <a href="https://www.orgran.com/" target="_blank"><img src="img/banner3.png" alt="orgranLogo"></a>
+      </div>
+      <div class="banner4">
+        <a href="https://www.beyondmeat.com/" target="_blank"><img  src="img/banner4.png" alt="beyondMeatLogo"></a>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Zona de footer -->
+  <footer class="footer">
+
+    <div class="footerInfo">
+      <h3>Informacion nutricional</h3>
+      <p>La nutrición vegana se refiere a los aspectos nutricionales y de salud humana de las dietas veganas. Una dieta vegana bien planificada y equilibrada es adecuada para cumplir todas las recomendaciones de nutrientes en cada etapa de la vida humana.</p>
+      <p class="advertencia">Si necesita mas informacion sobre el habito alimenticio a base de plantas, consulte con un nutricionista.</p>
+    </div>
+
+    <div class="footerRedes">
+      <a href="https://www.instagram.com/sofiacocinaoficial/?hl=es" target="_blank" ><img src="img/insta.png" alt="instagramLogo" class="imgInstagram"></a>
+      <a href="https://www.youtube.com/channel/UCdNXrC4x5i7mVlZ-j1ar9DA" target="_blank"><img src="img/youtube.png" alt="youtubeLogo" class="imgYoutube"></a>
+      <a href="https://www.tiktok.com/@sofiacocinaoficial?" target="_blank"><img src="img/tiktok.png" alt="tiktokLogo" class="imgTiktok"></a>
+    </div>
+
+    <div class="siguenos">
+      <p>Siguenos en...</p>
+    </div>
+    
+    <div class="footerBanner">     
+      <img class="imgFooterBanner" src="img/footerBanner.png" alt="footerBanner">
+    </div>
+  </footer>
+
+</body>
+</html>
