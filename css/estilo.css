@@ -424,6 +424,11 @@ h3 {
   width:100%;
 }
 
+.imgFooterBanner:hover {
+  transform: scale(0.99);
+}
+
+
 /*Canal de youtube*/
 
 .recetaContenido {
